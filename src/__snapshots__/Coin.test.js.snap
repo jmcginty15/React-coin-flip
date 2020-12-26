@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches heads snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Coin"
+  >
+    <img
+      alt="heads"
+      class="Coin-image"
+      src="https://www.usmint.gov/wordpress/wp-content/uploads/2019/11/2020-america-the-beautiful-quarters-coin-uncirculated-obverse-philadelphia-768x768.jpg"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches tails snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Coin"
+  >
+    <img
+      alt="tails"
+      class="Coin-image"
+      src="https://www.usmint.gov/wordpress/wp-content/uploads/2019/11/2020-america-the-beautiful-quarters-coin-tallgrass-prairie-kansas-uncirculated-reverse-768x768.jpg"
+    />
+  </div>
+</DocumentFragment>
+`;

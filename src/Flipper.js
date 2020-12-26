@@ -11,7 +11,7 @@ const Flipper = () => {
         <div className="Flipper">
             <h3>Let's flip a coin!</h3>
             <div>{lastFlip ? <Coin result={lastFlip} /> : null}</div>
-            <button onClick={flipCoin}>FLIP MEEEE</button>
+            <button onClick={flipCoin} data-testid="flip-button">FLIP MEEEE</button>
             <p>Out of {flips} flips, there have been {heads} heads and {tails} tails.</p>
         </div>
     )

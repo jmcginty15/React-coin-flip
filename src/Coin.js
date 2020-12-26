@@ -6,7 +6,7 @@ const Coin = ({ result }) => {
 
     return (
         <div className="Coin">
-            <img className="Coin-image" src={result === 'heads' ? headsImage : tailsImage} />
+            <img className="Coin-image" src={result === 'heads' ? headsImage : tailsImage} alt={result === 'heads' ? 'heads' : 'tails'} />
         </div>
     )
 }
